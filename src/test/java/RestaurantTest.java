@@ -80,7 +80,7 @@ class RestaurantTest {
         Items.add("Vegetable lasagne");
         Integer TotalOrder = restaurant.calculateTotalOrder(Items);
 
-        assertEquals(370,TotalOrder);
+        assertEquals(388,TotalOrder);
     }
 
 
