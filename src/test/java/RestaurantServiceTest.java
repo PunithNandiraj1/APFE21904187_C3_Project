@@ -10,7 +10,7 @@ class RestaurantServiceTest {
     RestaurantService service = new RestaurantService();
     Restaurant restaurant;
 
-    //REFACTORED ALL THE REPEATED LINES OF CODE AND UPDATED
+    //REFACTORED ALL THE REPEATED LINES OF CODE AND UPDATED.
 
     @BeforeEach
     public void init() {

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Restaurant_project -Student version" />
         <module name="Restaurant_project" />
+        <module name="APFE21904187_C3_Project_Upgrad" />
       </profile>
     </annotationProcessing>
   </component>

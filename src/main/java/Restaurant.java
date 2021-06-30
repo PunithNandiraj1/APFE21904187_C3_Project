@@ -31,7 +31,7 @@ public class Restaurant {
 
     public List<Item> getMenu() {
         return menu;
-        // DELETED THE PREVIOUS CODE AND WRITTEN THE SOLUTION
+        // DELETED THE PREVIOUS CODE AND WRITTEN THE SOLUTION.
 
     }
 

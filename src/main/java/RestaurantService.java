@@ -12,7 +12,7 @@ public class RestaurantService {
             }
         }
         throw new restaurantNotFoundException("Restaurant not found");
-        //DELETED THE PREVIOUS STATEMENT AND WRITTEN THE UPDATED CODE
+        //DELETED THE PREVIOUS STATEMENT AND WRITTEN THE UPDATED CODE.
     }
 
 
