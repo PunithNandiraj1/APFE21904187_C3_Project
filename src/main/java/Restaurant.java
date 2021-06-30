@@ -3,6 +3,8 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class Restaurant {
     private String name;
     private String location;
@@ -68,6 +70,15 @@ public class Restaurant {
 
     public String getName() {
         return name;
+    }
+
+    public Integer calculateTotalOrder(List<String> Items) {
+        int TotalOrder = 0;
+        for(String itemName: Items) {
+            Item menuItem = findItemByName(itemName);
+            TotalOrder = TotalOrder + menuItem.getPrice();
+        }
+        return TotalOrder;
     }
 
 

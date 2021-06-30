@@ -4,6 +4,8 @@ import org.mockito.Mockito;
 
 import java.time.LocalTime;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -69,6 +71,16 @@ class RestaurantTest {
 
         assertThrows(itemNotFoundException.class,
                 ()->restaurant.removeFromMenu("French fries"));
+    }
+
+    @Test
+    public void calculating_total_order_should_return_incorrect_amount() {
+        List<String> Items = new ArrayList<String>();
+        Items.add("Sweet corn soup");
+        Items.add("Vegetable lasagne");
+        Integer TotalOrder = restaurant.calculateTotalOrder(Items);
+
+        assertEquals(370,TotalOrder);
     }
 
 
